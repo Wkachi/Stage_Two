@@ -1,0 +1,409 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'DM Sans';
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../public/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
+}
+
+.navBar {
+
+  display:flex;
+ 
+
+}
+
+.nB1,.nB2,.nB3 {
+  display: flex;
+  
+}
+
+.nB1-svg {
+ 
+  margin-left: 95px;
+  margin-top:15px;
+}
+
+.nB2 {
+  align-items: center;
+  border:1px solid #fff;
+  border-radius: 8px;
+  color: #d1d5db;
+  font-size: 15px;
+  margin-top:10px;
+  padding:10px;
+  height:40px;
+  width:500px;
+  position: relative;
+  left:200px;
+}
+.nB2-svg  {
+  color: #d1d5db;
+  margin-left: auto;
+}
+
+.nB3 {
+  margin-left: auto;
+  margin-right:50px;
+  margin-top:22px;
+}
+
+.nB3 h5 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24PX;
+  margin-right: 20px;
+  
+}
+.nB3-svg {
+  position:relative;
+  bottom:5px;
+}
+.heroPage {
+
+  background-image: url(../src/assets/Poster.svg);
+  
+  height:500px;
+  width:100%;
+
+}
+
+
+.write-up {
+ 
+  color: #fff;
+  font-family: 'DM_Sans';
+ margin-left: 98px;
+  height:404px;
+  width:285px;
+  position:relative;
+  
+}
+
+.johnWick {
+  
+  font-size: 48px;
+  line-height: 56px;
+  object-fit: cover;
+  margin-top: 50px;
+  height:200px;
+  width:370px;
+}
+
+.imdb-Tomata {
+  display:flex;
+  position:relative;
+  bottom:80px;
+  
+}
+
+.imdb-writeUp  {
+   background-image: url(../src/assets/imdb.svg);
+   width:35px;
+}
+
+
+
+.imdb-writeUp p {
+  position:relative;
+  left: 40px;
+  
+}
+.Tomato-writeUp {
+  background-image: url(../src/assets/tomato.svg);
+  margin-left: 100px;
+  width:15px;
+}
+
+.Tomato-writeUp p {
+  position:relative;
+  left: 25px;
+  
+}
+.summary {
+  font-size: 13px;
+  line-height:18px ;
+  font-weight: 500px;
+  position:relative;
+  bottom:70px;
+}
+
+.watchTrailer {
+  background-image: url(../src/assets/Play.svg);
+  height:20px;
+  width:20px;
+
+}
+
+.watchTrailer-div {
+  background-color: #BE123C;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display:flex;
+  gap:8px;
+  margin-top: 20px;
+  line-height: 24px;
+  padding:6px 16px 6px 16px;
+  height:34px;
+  width:169px;
+
+}
+
+.card {
+
+
+  margin-left: 98px;
+  position:relative;
+  top:100px;
+}
+
+.moviePoster img {
+  /* border:1px solid #000; */
+  object-fit: cover;
+  height:300px;
+  width:200px;
+  position:relative;
+  bottom:100px;
+}
+
+.movieInfo {
+  display:flex;
+  font-weight: 700;
+  margin-bottom: 20px;
+  gap:10px;
+ 
+}
+
+.featuredMovie {
+  display: flex;
+  position: relative;
+  bottom:100px;
+  margin-bottom: 30px;
+}
+
+.featuredMovie h4 {
+  color:#000;
+  font-weight: 700;
+ 
+}
+
+.featuredMovie p {
+  color:#BE123C;
+  font-family: 500;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.movieData {
+  border:1px solid #000;
+  height:600px;
+  width:100%;
+}
+
+.sideBar {
+  /* border:1px solid #000; */
+  border-radius: 8px;
+  color: #4f4f50;
+  margin-left: 10px;
+  padding:20px;
+  height:600px;
+  width:250px;
+}
+
+.sideMenu span {
+  font-weight: 700;
+}
+
+.movieLogo {
+  background-image: url(../src/assets/Logo.svg);
+  display:flex;
+  /* margin-top: 10px; */
+  height: 50px;
+  width:185px;
+}
+
+
+
+.movieLogo span {
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  position:relative;
+  left:70px;
+  top:10px;
+}
+
+.home:hover {
+  color:#BE123C;
+  cursor: pointer;
+}
+
+
+ 
+
+.tv:hover {
+  color:#BE123C;
+  cursor: pointer;
+}
+.calendar:hover {
+  color:#BE123C;
+  cursor: pointer;
+}
+
+.home {
+  background-image: url(../src/assets/Home.svg);
+  display:flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height:25px;
+  width:25px;
+  position: relative;
+  left:30px;
+}
+
+.home span {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top:5px;
+}
+
+
+.movieProjector {
+  background-image: url(../src/assets/Movie\ Projector.svg);
+  display:flex;
+  margin-bottom: 20px;
+  height:25px;
+  width:25px;
+  position: relative;
+  left:30px;
+  top:10px;
+}
+
+.movieProjector1 {
+  height: 50px;
+  width:150px;
+ 
+}
+.movieProjector1 {
+  background-color: #f29db2;
+  border-right: 3px solid #BE123C;
+  color:#BE123C;
+  cursor: pointer;
+  
+
+}
+
+.movieProjector span {
+  
+  margin-left: 40px;
+  margin-top:5px;
+}
+
+.movieProjector span:hover {
+  color:#BE123C;
+}
+
+
+
+
+.tv  {
+  background-image: url(../src/assets/TV\ Show.svg);
+  display:flex;
+  margin-bottom: 20px;
+  height:25px;
+  width:25px;
+  position: relative;
+  left:30px;
+}
+
+.tv span {
+  
+  margin-left: 40px;
+  margin-top:5px;
+}
+
+.tv span span {
+  
+  position:relative;
+  bottom:20px;
+  right:17px;
+}
+
+
+.calendar {
+  background-image: url(../src/assets/Calendar.svg);
+  display:flex;
+  margin-bottom: 20px;
+  height:25px;
+  width:25px;
+  position: relative;
+  left:30px;
+}
+
+.calendar span {
+
+  margin-left: 40px;
+  margin-top:5px;
+}
+
+
+
+.freeTicket {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding:20px;
+  margin-top:30px;
+  height:230px;
+  width:200px;
+}
+.freeTicket p {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.people {
+  color:#d1d5db
+}
+
+.freeTicket button {
+  background-color: #f2678a;
+  border:none;
+  border-radius: 15px;
+  color:#BE123C;
+  font-weight: 700;
+  margin-top: 10px;
+  padding:8px 25px;
+}
+
+.logOut {
+  background-image: url(../src/assets/Logout.svg);
+  color: #3c3c3e;
+  display: flex;
+  font-weight: 700;
+ height:30px;
+ width:30px;
+ position: relative;
+ left:50px;
+ top:20px;
+
+
+}
+
+.logOut span {
+  
+  position:relative;
+  left:30px;
+  top:5px;
+  margin-right: 5px;
+}
+
+
+
+

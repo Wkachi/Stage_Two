@@ -1,0 +1,58 @@
+/* @font-face {
+    font-family: 'DM Sans';
+    src: url('../public/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
+  }
+  
+  .navBar {
+  
+    display:flex;
+ 
+  }
+  
+  .nB1,.nB2,.nB3 {
+    display: flex;
+    
+  }
+  
+  .nB1-svg {
+   
+    margin-left: 95px;
+    margin-top:15px;
+  }
+  
+  .nB2 {
+    align-items: center;
+    border:1px solid #fff;
+    border-radius: 8px;
+    color: #d1d5db;
+    font-size: 15px;
+    margin-top:10px;
+    padding:10px;
+    height:40px;
+    width:500px;
+    position: relative;
+    left:200px;
+  }
+  .nB2-svg  {
+    color: #d1d5db;
+    margin-left: auto;
+  }
+  
+  .nB3 {
+    margin-left: auto;
+    margin-right:50px;
+    margin-top:22px;
+  }
+  
+  .nB3 h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24PX;
+    margin-right: 20px;
+    
+  }
+  .nB3-svg {
+    position:relative;
+    bottom:5px;
+  } */
