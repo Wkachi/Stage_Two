@@ -10,7 +10,7 @@ import MovieDetails from './MovieDetails';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React">
         <div className="App">
        
        <div className='content'>
